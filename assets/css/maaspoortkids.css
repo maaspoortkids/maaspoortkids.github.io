@@ -1,27 +1,14 @@
----
----
-
-@import "bootstrap";
-
-$theme-colors: (
-    "secondary": #5e6365,
-    "primary": #80c3d2,
-    "success": #88c87b,
-    "warning": #f0cd3a,
-    "danger": #ff8454
-);
-$theme-colors: map-remove($theme-colors, "info", "light", "dark");
-
-body {
-    font-family: Oswald;
-}
-// ---------------------------------------------------------------------------------------------------------------------
 @font-face {
     font-family: neon;
     src: url(/assets/fonts/hellodenverdisplayregular_v1.6.woff);
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    font-family: Oswald;
+}
+
 
 .logo {
     display: block;
@@ -49,11 +36,10 @@ body {
     color: #ec1e21;
 }
 
-// ---------------------------------------------------------------------------------------------------------------------
-
 header {
     background-color: #454a4c;
 }
+
 header .logo {
     font-size: 3rem;
 }
@@ -63,7 +49,6 @@ header .inside {
     bottom: 0;
 }
 
-// ---------------------------------------------------------------------------------------------------------------------
 footer {
     display: block;
     background-color: #454a4c;
@@ -98,5 +83,3 @@ footer h5 {
     text-transform: uppercase;
     font-family: neon;
 }
-
-// ---------------------------------------------------------------------------------------------------------------------
