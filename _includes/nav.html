@@ -1,0 +1,17 @@
+<ul class="nav justify-content-center nav-tabs">
+    {% for nav in site.data.navigation %}
+    <li class="nav-item">
+        <a {% if nav.url== page.url %}
+           class="nav-link active"
+           {% else %}
+           class="nav-link disabled"
+           {% endif %}
+           href="{{ nav.url }}">
+            {{ nav.text }}
+            {% if nav.url== page.url %}
+            <span class="sr-only">(current)</span>
+            {% endif %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

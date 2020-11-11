@@ -1,0 +1,20 @@
+locale: "nl-NL"
+url: "https://computerhuis.github.io"
+baseurl: ""
+
+theme: # NONE - DEFAULT IS
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .idea/
+  - .git*
+  - .editorconfig
+  - _config
+  - Gemfile
+  - Gemfile.lock
+  - README.md

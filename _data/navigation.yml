@@ -1,0 +1,8 @@
+- text: Nieuws
+  url: /
+- text: Evenementen
+  url: /evenementen/
+- text: Foto's
+  url: /fotos/
+- text: Recepten
+  url: /recepten/

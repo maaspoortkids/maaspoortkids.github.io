@@ -1,0 +1,102 @@
+---
+---
+
+@import "bootstrap";
+
+$theme-colors: (
+    "secondary": #5e6365,
+    "primary": #80c3d2,
+    "success": #88c87b,
+    "warning": #f0cd3a,
+    "danger": #ff8454
+);
+$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+body {
+    font-family: Oswald;
+}
+// ---------------------------------------------------------------------------------------------------------------------
+@font-face {
+    font-family: neon;
+    src: url(/assets/fonts/hellodenverdisplayregular_v1.6.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    display: block;
+    text-transform: uppercase;
+    font-family: neon;
+}
+
+.logo .m {
+    color: #efefef;
+}
+
+.logo .k {
+    color: #d327c1;
+}
+
+.logo .i {
+    color: #57c6fa;
+}
+
+.logo .d {
+    color: #2af21d;
+}
+
+.logo .s {
+    color: #ec1e21;
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+header {
+    background-color: #454a4c;
+}
+header .logo {
+    font-size: 3rem;
+}
+
+header .inside {
+    position: absolute;
+    bottom: 0;
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+footer {
+    display: block;
+    background-color: #454a4c;
+}
+
+footer .container {
+    padding: 1rem;
+    color: #FFF;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a, footer a:visited {
+    color: #a6a6a6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff8454;
+    text-decoration: none;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    display: block;
+    text-transform: uppercase;
+    font-family: neon;
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
