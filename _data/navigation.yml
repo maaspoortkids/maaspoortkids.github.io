@@ -1,8 +1,14 @@
-- text: Nieuws
+- text: <i class="fas fa-home"></i>
   url: /
+- text: Nieuws
+  url: /nieuws/
 - text: Evenementen
   url: /evenementen/
-- text: Foto's
-  url: /fotos/
+- text: Sponsoren
+  url: /sponsoren/
 - text: Recepten
   url: /recepten/
+- text: Over Ons
+  url: /over-ons/
+- text: Contact
+  url: /contact/

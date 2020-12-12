@@ -32,18 +32,21 @@ body {
 
 .logo .i {
     color: #57c6fa;
+    margin-left: -10pt;
 }
 
 .logo .d {
     color: #2af21d;
+    margin-left: -10pt;
 }
 
 .logo .s {
     color: #ec1e21;
+    margin-left: -10pt;
 }
 
 header {
-    background-color: #454a4c;
+    background-color: #000;
 }
 
 header .logo {
@@ -57,7 +60,7 @@ header .inside {
 
 footer {
     display: block;
-    background-color: #454a4c;
+    background-color: #000;
     font-family: 'Oswald';
 }
 
@@ -84,11 +87,22 @@ footer .logo {
     font-size: 1.5rem;
 }
 
+footer .logo .i {
+    margin-left: -5pt;
+}
+
+footer .logo .d {
+    margin-left: -5pt;
+}
+
+footer .logo .s {
+    margin-left: -5pt;
+}
+
 footer h5 {
     font-size: 1.5rem;
     display: block;
     text-transform: uppercase;
-    font-family: 'neon';
 }
 
 .flex-wrapper {
