@@ -1,4 +1,6 @@
 ---
-layout: default permalink: /sponsoren/ title: Welkom op maaspoortkids
+layout: default
+permalink: /sponsoren/
+title: Sponsoren | Maaspoort KIDS
 ---
 

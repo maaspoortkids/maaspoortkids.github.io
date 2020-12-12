@@ -1,6 +1,6 @@
 ---
 layout: default
 permalink: /evenementen/
-title: Welkom op maaspoortkids
+title: Evenementen | Maaspoort KIDS
 ---
-F
+

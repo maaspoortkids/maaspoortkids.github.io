@@ -1,4 +1,6 @@
 ---
-layout: default permalink: /contact/ title: Welkom op maaspoortkids
+layout: default
+permalink: /contact/ 
+title: Contact | Maaspoort KIDS
 ---
 

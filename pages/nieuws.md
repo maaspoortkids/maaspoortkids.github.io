@@ -1,4 +1,6 @@
 ---
-layout: default permalink: /nieuws/ title: Welkom op maaspoortkids
+layout: default
+permalink: /nieuws/
+title: Nieuws | Maaspoort KIDS
 ---
 
