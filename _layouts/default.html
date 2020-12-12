@@ -2,11 +2,12 @@
 <html lang="nl">
 {%- include head.html -%}
 <body>
-{%- include header.html -%}
-{%- include nav.html -%}
-<div class="container" style="padding: 1rem">
-    {{ content }}
+<div class="flex-wrapper">
+    {%- include header.html -%}
+    <div class="container" style="padding: 1rem">
+        {{ content }}
+    </div>
+    {%- include footer.html -%}
 </div>
-{%- include footer.html -%}
 </body>
 </html>
