@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% for sponsor in site.data.sponsors %}
+<a class="tile-overview" href="{{ sponsor.url }}">
+    <ul class="tile">
+        <li>
+            <img alt="{{ sponsor.name }}" src="{{ sponsor.logo }}"/>
+        </li>
+        <li class="title">{{ sponsor.name }}</li>
+    </ul>
+</a>
+{% endfor %}

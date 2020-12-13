@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: news
 permalink: /nieuws/
-title: Nieuws | Maaspoort KIDS
+title: Nieuws
 ---
 

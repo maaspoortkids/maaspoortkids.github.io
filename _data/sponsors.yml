@@ -1,0 +1,45 @@
+- name: Google
+  logo: /assets/images/sponsoren/google.png
+  url: /sponsoren/google/
+- name: Slack
+  logo: /assets/images/sponsoren/slack.png
+  url: /sponsoren/slack/
+- name: Jumbo Maaspoort
+  logo: /assets/images/sponsoren/jumbo.png
+  url: /sponsoren/jumbo/
+- name: Rabobank 's-Hertogenbosch
+  logo: /assets/images/sponsoren/rabobank.jpg
+  url: /sponsoren/rabobank/
+- name: Gemeente 's-Hertogenbosch
+  logo: /assets/images/sponsoren/gemeente_shertogenbosch.jpeg
+  url: /sponsoren/gemeente-shertogenbosch/
+- name: Plus Maaspoort
+  logo: /assets/images/sponsoren/plus.png
+  url: /sponsoren/plus/
+- name: Scc de Schans
+  logo: /assets/images/sponsoren/scc_de_schans.png
+  url: /sponsoren/scc-de-schans/
+- name: Jantje Beton
+  logo: /assets/images/sponsoren/jantje_beton.png
+  url: /sponsoren/jantje-beton/
+- name: Hager
+  logo: /assets/images/sponsoren/hager.jpg
+  url: /sponsoren/hager/
+- name: Whyled
+  logo: /assets/images/sponsoren/whyled.png
+  url: /sponsoren/whyled/
+- name: Winkelcentrum Maaspoort
+  logo: /assets/images/sponsoren/winkelcentrum_maaspoort.png
+  url: /sponsoren/winkelcentrum-maaspoort/
+- name: Omron
+  logo: /assets/images/sponsoren/omron.svg
+  url: /sponsoren/omron/
+- name: Mooizo Goedzo
+  logo: /assets/images/sponsoren/mooizo_goedzo.png
+  url: /sponsoren/mooizo-goedzo/
+- name: Inveks Assurantiën
+  logo: /assets/images/sponsoren/inveks.png
+  url: /sponsoren/inveks/
+- name: Jos de Werd
+  logo: /assets/images/sponsoren/jos_de_werd.png
+  url: /sponsoren/jos-de-werd/
