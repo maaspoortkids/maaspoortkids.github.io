@@ -1,11 +1,38 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
-{% if post.categories contains 'evenementen' %}
-<div class="post">
-    <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p class="meta">Date: {{ post.date }}</p>
-</div>
-{% endif %}
+{% assign events = site.data.events | sort: 'start'  %}
+{% for event in events %}
+<article class="event">
+    <div class="event-image-wrap">
+        <div class="event-image"
+             style="background-image: url({{event.thumbnail}})"></div>
+    </div>
+    <div class="event-content-wrap">
+        <div class="event-content">
+            <h2 class="event-title">{{event.name}}</h2>
+            <p class="event-description">
+                {{ event.start | date: '%-d %b  %Y' }}<br>
+                Van:  {{ event.start | date: '%H:%M' }}<br>
+                Tot:  {{ event.end | date: '%H:%M' }}<br>
+                {% if event.location %}
+                Locatie:
+                <a target="_blank"
+                   href="https://www.google.nl/maps/place/{{ event.location | url_encode }}">
+                    {{event.location}}
+                </a>
+                {% endif %}
+                <br>
+                <br>
+                {% if event.ticket %}
+                <a target="_blank"
+                   class="btn btn-block btn-primary"
+                   href="{{ event.ticket }}">
+                    Ticket reserveren
+                </a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+</article>
 {% endfor %}

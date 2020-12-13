@@ -192,6 +192,137 @@ footer h5 {
 }
 
 .tile-overview .tile:hover {
-    background-color: #ec1e21;
+    background-color: #2af21d;
 }
 
+/* ---[ event ]------------------------------------------------------------------------------------------------------ */
+.event {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
+    -webkit-box-shadow: 0 6px 16px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 6px 16px rgba(0, 0, 0, .05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .05)
+}
+
+.event:first-child {
+    margin-top: 0
+}
+
+@media only screen and (min-width: 1024px) {
+    .event {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .event:nth-child(2n) .event-image-wrap {
+        left: auto;
+        right: 0
+    }
+
+    .event:nth-child(2n) .event-content-wrap {
+        float: left;
+        padding: 30px 0 30px 30px
+    }
+
+    .event:nth-child(2n) .event-content {
+        margin: 0 -30px 0 0
+    }
+}
+
+.event-image-wrap {
+    position: relative;
+    height: 0;
+    margin: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden
+}
+
+@media only screen and (min-width: 1024px) {
+    .event-image-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        height: auto;
+        padding-bottom: 0
+    }
+}
+
+.event-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event-content-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 0 20px 20px;
+    background: #d327c1
+}
+
+@media only screen and (min-width: 768px) {
+    .event-content-wrap {
+        padding: 0 30px 30px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .event-content-wrap {
+        float: right;
+        padding: 30px 30px 30px 0;
+        width: 50%
+    }
+}
+
+.event-content {
+    position: relative;
+    margin-top: -20px;
+    padding: 20px;
+    background: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .event-content {
+        margin-top: -30px;
+        padding: 30px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .event-content {
+        margin: 0 0 0 -30px;
+        min-height: 400px
+    }
+}
+
+.event-description {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+
+@media only screen and (min-width: 1220px) {
+    .event-descriptionl {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .event-description {
+        font-size: 20px;
+    }
+}
