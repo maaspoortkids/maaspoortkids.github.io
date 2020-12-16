@@ -1,5 +1,7 @@
 ---
-layout: frontpage permalink: / title: Welkom op maaspoortkids
+layout: frontpage 
+permalink: /
+title: Welkom op maaspoortkids
 ---
 
 # Breaking News
