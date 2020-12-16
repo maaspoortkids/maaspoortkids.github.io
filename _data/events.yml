@@ -1,59 +1,63 @@
-- name: Leer striptekenen - eerste sessie
-  thumbnail: /assets/images/evenementen/2020-12-21-leer-striptekenen.jpg
+- name: Leer striptekenen
+  thumbnail: /assets/images/evenementen/2020-12_striptekenen.jpeg
   url: /evenementen/2020-12-21-leer-striptekenen/
   ticket: https://www.eventbrite.nl/e/tickets-leer-striptekenen-eerste-sessie-132722076303
   start: 2020-12-21T13:00:00+01:00
   end: 2020-12-22T15:00:00+01:00
-  location: roelstradreef 160 5237 DE 's-Hertogenbosch Nederland
-  categories: tekenen
+  location: online
+  description: Voor alle Maaspoort meisjes en jongens tussen de 8 tot 10 jaar
+  #map: Troelstradreef 160, 5237 DE 's-Hertogenbosch, Nederland
 
-- name: Leer striptekenen - tweede sessie
-  thumbnail: /assets/images/evenementen/2020-12-21-leer-striptekenen.jpg
+- name: Leer striptekenen
+  thumbnail: /assets/images/evenementen/2020-12_striptekenen.jpeg
   url: /evenementen/2020-12-21-leer-striptekenen/
   ticket: https://www.eventbrite.nl/e/tickets-leer-striptekenen-tweede-sessie-132722323041
   start: 2020-12-21T15:00:00+01:00
   end: 2020-12-22T17:00:00+01:00
-  location: roelstradreef 160 5237 DE 's-Hertogenbosch Nederland
-  categories: tekenen
+  location: online
+  description: Voor alle Maaspoort meisjes en jongens tussen de 10 tot 12 jaar
 
 - name: Soldeer je eigen kerstboom
-  thumbnail: /assets/images/evenementen/2020-12-22-soldeer-je-eigen-kerstboom.jpeg
+  thumbnail: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
   url: /evenementen/2020-12-22-soldeer-je-eigen-kerstboom/
   ticket: https://www.eventbrite.nl/e/tickets-soldeer-je-eigen-kerstboom-132081664815
   start: 2020-12-22T10:00:00+01:00
   end: 2020-12-22T12:00:00+01:00
-  location: roelstradreef 160 5237 DE 's-Hertogenbosch, Nederland
-  categories: DIY
+  location: online
+  description: Soldeer samen met papa of mama een leuke kerstboom met mooie lampjes in elkaar
 
-- name: Online familie pubquiz - eerste sessie
-  thumbnail: /assets/images/evenementen/2020-12-pubquiz.jpeg
+- name: Online familie pubquiz
+  thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg
   url: /evenementen/2020-12-28-leer-striptekenen/
   ticket: https://www.eventbrite.nl/e/tickets-online-familie-pubquiz-eerste-sessie-132722601875
   start: 2020-12-28T13:00:00+01:00
   end: 2020-12-28T15:00:00+01:00
-  categories: tekenen
+  location: online
+  description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
 
 - name: Bouw je eigen wekker
-  thumbnail: /assets/images/evenementen/2020-12-22-bouw-je-eigen-wekker.jpg
+  thumbnail: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
   url: /evenementen/2020-12-22-bouw-je-eigen-wekker/
   ticket: https://www.eventbrite.nl/e/tickets-bouw-je-eigen-wekker-132722457443
   start: 2020-12-29T10:00:00+01:00
   end: 2020-12-29T12:00:00+01:00
-  location: roelstradreef 160, 5237 DE 's-Hertogenbosch, Nederland
-  categories: DIY
+  location: online
+  description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
 
-- name: Online familie pubquiz - tweede sessie
-  thumbnail: /assets/images/evenementen/2020-12-pubquiz.jpeg
+- name: Online familie pubquiz
+  thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg
   url: /evenementen/2020-12-28-leer-striptekenen/
   ticket: https://www.eventbrite.nl/e/tickets-online-familie-pubquiz-tweede-sessie-132722652025
   start: 2020-12-29T13:00:00+01:00
   end: 2020-12-29T15:00:00+01:00
-  categories: tekenen
+  location: online
+  description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
 
-- name: Online familie pubquiz - derde sessie
-  thumbnail: /assets/images/evenementen/2020-12-pubquiz.jpeg
+- name: Online familie pubquiz
+  thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg
   url: /evenementen/2020-12-28-leer-striptekenen/
   ticket: https://www.eventbrite.nl/e/tickets-online-familie-pubquiz-derde-sessie-132722732265
   start: 2020-12-30T13:00:00+01:00
   end: 2020-12-30T15:00:00+01:00
-  categories: tekenen
+  location: online
+  description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen

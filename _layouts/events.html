@@ -2,37 +2,48 @@
 layout: default
 ---
 {% assign events = site.data.events | sort: 'start'  %}
-{% for event in events %}
-<article class="event">
-    <div class="event-image-wrap">
-        <div class="event-image"
-             style="background-image: url({{event.thumbnail}})"></div>
-    </div>
-    <div class="event-content-wrap">
-        <div class="event-content">
-            <h2 class="event-title">{{event.name}}</h2>
-            <p class="event-description">
-                {{ event.start | date: '%-d %b  %Y' }}<br>
-                Van:  {{ event.start | date: '%H:%M' }}<br>
-                Tot:  {{ event.end | date: '%H:%M' }}<br>
-                {% if event.location %}
-                Locatie:
-                <a target="_blank"
-                   href="https://www.google.nl/maps/place/{{ event.location | url_encode }}">
-                    {{event.location}}
-                </a>
-                {% endif %}
-                <br>
-                <br>
-                {% if event.ticket %}
-                <a target="_blank"
-                   class="btn btn-block btn-primary"
-                   href="{{ event.ticket }}">
-                    Ticket reserveren
-                </a>
-                {% endif %}
-            </p>
-        </div>
-    </div>
-</article>
-{% endfor %}
+
+<table class="table event">
+    <tbody>
+    {% for event in events %}
+    <tr>
+        <th width="100px">
+            <time datetime="2014-09-20" class="icon">
+                <em>{{ event.start | date: '%A' }}</em>
+                <strong>{{ event.start | date: '%B' }}</strong>
+                <span>{{ event.start | date: '%d' }}</span>
+            </time>
+        </th>
+        <th width="250px">
+            <img class="img-fluid img-thumbnail" alt="{{event.name}}" src="{{event.thumbnail}}">
+        </th>
+        <th>
+            <h3>{{ event.name }}</h3>
+            <p>{{ event.description }}</p>
+        </th>
+        <th width="200px">
+            Locatie: {{event.location}}<br>
+
+            {% if event.map %}
+            <br>
+            <a class="btn btn-info"
+               target="_blank"
+               href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
+                <i class="fas fa-map-marked-alt"></i>
+            </a>
+            <br>
+            {% endif %}
+
+            {% if event.ticket %}
+            <br>
+            <a target="_blank"
+               class="btn btn-primary mt-auto"
+               href="{{ event.ticket }}">
+                Ticket reserveren
+            </a>
+            {% endif %}
+        </th>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
