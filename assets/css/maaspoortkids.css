@@ -20,6 +20,7 @@ body {
     display: block;
     text-transform: uppercase;
     font-family: neon;
+    font-size: 2rem;
 }
 
 .logo .m {
@@ -32,30 +33,17 @@ body {
 
 .logo .i {
     color: #57c6fa;
-    margin-left: -10pt;
+    margin-left: -0.5rem;
 }
 
 .logo .d {
     color: #2af21d;
-    margin-left: -10pt;
+    margin-left: -0.5rem;
 }
 
 .logo .s {
     color: #ec1e21;
-    margin-left: -10pt;
-}
-
-header {
-    background-color: #000;
-}
-
-header .logo {
-    font-size: 3rem;
-}
-
-header .inside {
-    position: absolute;
-    bottom: 0;
+    margin-left: -0.5rem;
 }
 
 footer {
@@ -112,19 +100,33 @@ footer h5 {
     justify-content: space-between
 }
 
-.menu {
+.navbar {
     text-transform: uppercase;
     font-family: 'Oswald';
-    font-size: 14pt;
+    background-color: #000 !important;
 }
 
-.menu .nav-link {
-    color: #FFFFFF !important;
+.nav-link, .nav-link:visited {
+    color: #FFF;
+    text-decoration: none;
 }
 
-.menu .active {
-    color: #57c6fa !important;
+.nav-link:hover {
+    color: #ec1e21;
+    text-decoration: none;
 }
+
+.nav-link.active {
+  color: #d327c1;
+}
+
+.navbar-toggler {
+    color: #FFFFFF;
+}
+
+/*.navbar-brand .logo {*/
+/*    font-size: 32pt;*/
+/*}*/
 
 /* -- [ time ]------------------------------------------------------------------------------------------------------- */
 time.icon {

@@ -1,29 +1,28 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-4">
-                {%- include logo.html -%}
-                <div>
-                    Voor alle kinderen in de wijk Maaspoort.<br>
-                </div>
+            <div class="col-md-8">
+                Voor alle kinderen in de wijk Maaspoort.
             </div>
-            <div class="col-4">
-            </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <ul>
                     <li>
-                        <a href="tel:0736423733">
+                        <a class="nav-link" href="tel:0736423733">
                             <i class="fas fa-phone-alt" style="color:#ff8454;"></i>
                             073 642 3733
                         </a>
                     </li>
                     <li>
-                        <i class="fas fa-map-marker-alt" style="color:#ff8454;"></i>
-                        Troelstradreef 160<br>
-                        5237 DE 's-Hertogenbosch
+                        <a class="nav-link"
+                           target="_blank"
+                           href="https://www.google.nl/maps/place/{{ 'Troelstradreef 160 5237 DE s-Hertogenbosch Nederland' | url_encode }}">
+                            <i class="fas fa-map-marked-alt" style="color:#ff8454;"></i>
+                            Troelstradreef 160<br>
+                            5237 DE 's-Hertogenbosch
+                        </a>
                     </li>
                     <li>
-                        <a href="mailto:info@maaspoortkids.nl">
+                        <a class="nav-link" href="mailto:info@maaspoortkids.nl">
                             <i class="far fa-envelope" style="color:#ff8454;"></i>
                             info@maaspoortkids.nl
                         </a>
