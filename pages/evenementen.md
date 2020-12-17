@@ -1,6 +1,6 @@
 ---
 layout: events
 permalink: /evenementen/
-title: Evenementen
+title: Evenementen | Maaspoort KIDS
 ---
 

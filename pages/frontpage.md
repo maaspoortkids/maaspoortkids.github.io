@@ -1,7 +1,15 @@
 ---
 layout: frontpage 
 permalink: /
-title: Welkom op maaspoortkids
+title: Welkom op Maaspoort KIDS
+carousel:
+- name: striptekenen
+  image: /assets/images/evenementen/2020-12_striptekenen.jpeg
+- name: soldeer kerst boom
+  image: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
+- name: bouw eigen wekker
+  image: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
+
 ---
 
 # Breaking News
