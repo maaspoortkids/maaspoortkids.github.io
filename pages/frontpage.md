@@ -9,7 +9,8 @@ carousel:
   image: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
 - name: bouw eigen wekker
   image: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
-
+- name: Online familie quiz
+  image: /assets/images/evenementen/2020-12_familie_quiz.jpeg
 ---
 
 # Breaking News

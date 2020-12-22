@@ -1,54 +1,68 @@
----
-layout: default
----
-<div class="row">
-    <div class="col-sm-8">
-        <div class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                {% for image in page.carousel %}
-                <li data-bs-target="#carouselIndicators"
-                    data-bs-slide-to="{{ forloop.index0 }}"
-                    {% if forloop.index0 == 0 %}
-                    class="active"
-                    {% endif %}></li>
-                {% endfor %}
-            </ol>
-            <div class="carousel-inner">
-                {% for item in page.carousel %}
-                <div
-                    {% if forloop.index0 == 0 %}
-                    class="carousel-item active"
-                    {% else %}
-                    class="carousel-item"
-                    {% endif %}
-                     data-bs-interval="2000">
-                    <img src="{{item.image}}" class="d-block w-100" alt="{{item.name}}">
+<!DOCTYPE html>
+<html lang="nl">
+{%- include head.html -%}
+<body>
+{%- include nav.html -%}
+<div class="latestUpdate small-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        {% for image in page.carousel %}
+                        <li data-bs-target="#carouselIndicators"
+                            data-bs-slide-to="{{ forloop.index0 }}"
+                            {% if forloop.index0== 0 %}
+                            class="active"
+                            {% endif %}></li>
+                        {% endfor %}
+                    </ol>
+                    <div class="carousel-inner">
+                        {% for item in page.carousel %}
+                        <div
+                            {% if forloop.index0== 0 %}
+                            class="carousel-item active"
+                            {% else %}
+                            class="carousel-item"
+                            {% endif %}
+                            data-bs-interval="2000">
+                            <img src="{{item.image}}" class="d-block w-100" alt="{{item.name}}">
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
-                {% endfor %}
+            </div>
+            <div class="col-sm-4">
+                {% assign events = site.data.events | sort: 'start' %}
+                <table class="table event">
+                    <tbody>
+                    {% for event in events limit:3 %}
+                    <tr>
+                        <th>
+                            <time datetime="2014-09-20" class="icon">
+                                <em>{{ event.start | date: '%A' }}</em>
+                                <strong>{{ event.start | date: '%B' }}</strong>
+                                <span>{{ event.start | date: '%d' }}</span>
+                            </time>
+                        </th>
+                        <th>
+                            <h3>{{ event.name }}</h3>
+                        </th>
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    <div class="col-sm-4">
-        {% assign events = site.data.events | sort: 'start' %}
-        <table class="table event">
-            <tbody>
-            {% for event in events limit:3 %}
-            <tr>
-                <th>
-                    <time datetime="2014-09-20" class="icon">
-                        <em>{{ event.start | date: '%A' }}</em>
-                        <strong>{{ event.start | date: '%B' }}</strong>
-                        <span>{{ event.start | date: '%d' }}</span>
-                    </time>
-                </th>
-                <th>
-                    <h3>{{ event.name }}</h3>
-                </th>
-                {% endfor %}
-            </tbody>
-        </table>
-
-    </div>
-
 </div>
-{{ content }}
+<div class="container" style="padding: 1rem">
+    {{ content }}
+</div>
+{%- include footer.html -%}
+{%- include gtag.html -%}
+{%- include pixel.html -%}
+</body>
+</html>
+
+
+

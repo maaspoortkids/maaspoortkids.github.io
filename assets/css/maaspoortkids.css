@@ -124,9 +124,17 @@ footer h5 {
     color: #FFFFFF;
 }
 
-/*.navbar-brand .logo {*/
-/*    font-size: 32pt;*/
-/*}*/
+/* -- [ latestUpdate-bar ]------------------------------------------------------------------------------------------- */
+.latestUpdate.small-gap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.latestUpdate {
+    padding: 0;
+    background: #f1f1f1;
+}
+
 
 /* -- [ time ]------------------------------------------------------------------------------------------------------- */
 time.icon {
