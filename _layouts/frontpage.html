@@ -34,23 +34,21 @@
             </div>
             <div class="col-sm-4">
                 {% assign events = site.data.events | sort: 'start' %}
-                <table class="table event">
-                    <tbody>
-                    {% for event in events limit:3 %}
-                    <tr>
-                        <th>
-                            <time datetime="2014-09-20" class="icon">
-                                <em>{{ event.start | date: '%A' }}</em>
-                                <strong>{{ event.start | date: '%B' }}</strong>
-                                <span>{{ event.start | date: '%d' }}</span>
-                            </time>
-                        </th>
-                        <th>
-                            <h3>{{ event.name }}</h3>
-                        </th>
-                        {% endfor %}
-                    </tbody>
-                </table>
+                {% for event in events limit:3 %}
+                <a target="_blank" class="no_a" href="{{ event.ticket }}">
+                    <div class="card" style="margin: 1rem">
+                        <div class="card-header">
+                            <div class="calendar">
+                                <span class="calendar-month">{{ event.start | date: '%b' }}</span>
+                                <span class="calendar-day">{{ event.start | date: '%d' }}</span>
+                            </div>
+                            <h5 class="card-title">{{ event.name }}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ event.start | date: "%k:%M" }} - {{ event.end |
+                                date: "%k:%M" }}</h6>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
             </div>
         </div>
     </div>

@@ -5,40 +5,38 @@ layout: default
 
 <div class="row">
     {% for event in events %}
-    <div class="col-md-6">
+    <div class="col-md-4">
         <div class="card" style="margin: 1rem">
             <img class="card-img-top" alt="{{event.name}}" src="{{event.thumbnail}}">
+            <div class="card-header">
+                <div class="calendar">
+                    <span class="calendar-month">{{ event.start | date: '%b' }}</span>
+                    <span class="calendar-day">{{ event.start | date: '%d' }}</span>
+                </div>
+                <h5 class="card-title">{{ event.name }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Van: {{ event.start | date: "%k:%M" }}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Tot: {{ event.end | date: "%k:%M" }}</h6>
+            </div>
             <div class="card-body">
-                <time datetime="2014-09-20" class="icon" style="float: left; margin-right: 1rem">
-                    <em>{{ event.start | date: '%A' }}</em>
-                    <strong>{{ event.start | date: '%B' }}</strong>
-                    <span>{{ event.start | date: '%d' }}</span>
-                </time>
 
-                <h3>{{ event.name }}</h3>
-                <p>{{ event.description }}</p>
-                <p>Locatie: {{event.location}}</p>
+                <p class="card-text">{{ event.description }}</p>
+                <p class="card-text">Locatie: {{event.location}}</p>
 
                 {% if event.map %}
-                <p>
-                    <a class="btn btn-info"
-                       target="_blank"
-                       href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
-                        <i class="fas fa-map-marked-alt"></i>
-                    </a>
-                </p>
+                <a target="_blank"
+                   class="btn btn-primary"
+                   href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
+                    <i class="fas fa-map-marked-alt"></i>
+                </a>
                 {% endif %}
 
                 {% if event.ticket %}
-                <p>
-                    <a target="_blank"
-                       class="btn btn-primary mt-auto"
-                       href="{{ event.ticket }}">
-                        Ticket reserveren
-                    </a>
-                </p>
+                <a target="_blank"
+                   class="btn btn-primary"
+                   href="{{ event.ticket }}">
+                    Ticket reserveren
+                </a>
                 {% endif %}
-
             </div>
         </div>
     </div>

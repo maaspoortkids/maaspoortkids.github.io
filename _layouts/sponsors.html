@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
-{% for sponsor in site.data.sponsors %}
-<a class="tile-overview" href="{{ sponsor.url }}">
-    <ul class="tile">
-        <li>
-            <img alt="{{ sponsor.name }}" src="{{ sponsor.logo }}"/>
-        </li>
-        <li class="title">{{ sponsor.name }}</li>
-    </ul>
-</a>
-{% endfor %}
+<div class="row">
+    {% for sponsor in site.data.sponsors %}
+    <div class="col-md-2">
+        <div class="card" style="margin: 1rem">
+            <img class="card-img-top" alt="{{ sponsor.name }}" src="{{ sponsor.logo }}">
+            <div class="card-header">
+                {{ sponsor.name }}
+            </div>
+            <div class="card-body">
+                {{ sponsor.description }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
