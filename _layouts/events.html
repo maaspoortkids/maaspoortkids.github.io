@@ -3,47 +3,44 @@ layout: default
 ---
 {% assign events = site.data.events | sort: 'start'  %}
 
-<table class="table event">
-    <tbody>
+<div class="row">
     {% for event in events %}
-    <tr>
-        <th width="100px">
-            <time datetime="2014-09-20" class="icon">
-                <em>{{ event.start | date: '%A' }}</em>
-                <strong>{{ event.start | date: '%B' }}</strong>
-                <span>{{ event.start | date: '%d' }}</span>
-            </time>
-        </th>
-        <th width="250px">
-            <img class="img-fluid img-thumbnail" alt="{{event.name}}" src="{{event.thumbnail}}">
-        </th>
-        <th>
-            <h3>{{ event.name }}</h3>
-            <p>{{ event.description }}</p>
-        </th>
-        <th width="200px">
-            Locatie: {{event.location}}<br>
+    <div class="col-md-6">
+        <div class="card" style="margin: 1rem">
+            <img class="card-img-top" alt="{{event.name}}" src="{{event.thumbnail}}">
+            <div class="card-body">
+                <time datetime="2014-09-20" class="icon" style="float: left; margin-right: 1rem">
+                    <em>{{ event.start | date: '%A' }}</em>
+                    <strong>{{ event.start | date: '%B' }}</strong>
+                    <span>{{ event.start | date: '%d' }}</span>
+                </time>
 
-            {% if event.map %}
-            <br>
-            <a class="btn btn-info"
-               target="_blank"
-               href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
-                <i class="fas fa-map-marked-alt"></i>
-            </a>
-            <br>
-            {% endif %}
+                <h3>{{ event.name }}</h3>
+                <p>{{ event.description }}</p>
+                <p>Locatie: {{event.location}}</p>
 
-            {% if event.ticket %}
-            <br>
-            <a target="_blank"
-               class="btn btn-primary mt-auto"
-               href="{{ event.ticket }}">
-                Ticket reserveren
-            </a>
-            {% endif %}
-        </th>
-    </tr>
+                {% if event.map %}
+                <p>
+                    <a class="btn btn-info"
+                       target="_blank"
+                       href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </a>
+                </p>
+                {% endif %}
+
+                {% if event.ticket %}
+                <p>
+                    <a target="_blank"
+                       class="btn btn-primary mt-auto"
+                       href="{{ event.ticket }}">
+                        Ticket reserveren
+                    </a>
+                </p>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
     {% endfor %}
-    </tbody>
-</table>
+</div>
