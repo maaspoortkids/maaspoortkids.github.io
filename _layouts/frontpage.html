@@ -34,13 +34,14 @@
             </div>
             <div class="col-sm-4">
                 {% assign events = site.data.events | sort: 'start' %}
-                {% for event in events limit:3 %}
+                {% for event in events limit:4 %}
+
                 <a target="_blank" class="no_a" href="{{ event.ticket }}">
                     <div class="card" style="margin: 1rem">
                         <div class="card-header">
                             <div class="calendar">
-                                <span class="calendar-month">{{ event.start | date: '%b' }}</span>
-                                <span class="calendar-day">{{ event.start | date: '%d' }}</span>
+                                <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
+                                <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
                             </div>
                             <h5 class="card-title">{{ event.name }}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{{ event.start | date: "%k:%M" }} - {{ event.end |
@@ -57,6 +58,14 @@
     {{ content }}
 </div>
 {%- include footer.html -%}
+<script>
+    var chapters = {
+    {
+        site.data.events | jsonify
+    }
+    }
+    ;
+</script>
 {%- include gtag.html -%}
 {%- include pixel.html -%}
 </body>

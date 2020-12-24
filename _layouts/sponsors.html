@@ -4,15 +4,14 @@ layout: default
 <div class="row">
     {% for sponsor in site.data.sponsors %}
     <div class="col-md-2">
-        <div class="card" style="margin: 1rem">
-            <img class="card-img-top" alt="{{ sponsor.name }}" src="{{ sponsor.logo }}">
-            <div class="card-header">
-                {{ sponsor.name }}
+        <a class="no_a" href="{{ sponsor.url }}">
+            <div class="card" style="margin: 1rem">
+                <img class="card-img-top sponsoren" alt="{{ sponsor.name }}" src="{{ sponsor.logo }}">
+                <div class="card-body">
+                    {{ sponsor.name }}
+                </div>
             </div>
-            <div class="card-body">
-                {{ sponsor.description }}
-            </div>
-        </div>
+        </a>
     </div>
     {% endfor %}
 </div>

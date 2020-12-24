@@ -10,8 +10,8 @@ layout: default
             <img class="card-img-top" alt="{{event.name}}" src="{{event.thumbnail}}">
             <div class="card-header">
                 <div class="calendar">
-                    <span class="calendar-month">{{ event.start | date: '%b' }}</span>
-                    <span class="calendar-day">{{ event.start | date: '%d' }}</span>
+                    <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
+                    <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
                 </div>
                 <h5 class="card-title">{{ event.name }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Van: {{ event.start | date: "%k:%M" }}</h6>
