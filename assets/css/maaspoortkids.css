@@ -186,3 +186,7 @@ footer li {
     color: unset;
     text-decoration: unset;
 }
+
+.hide {
+    display: none;
+}
