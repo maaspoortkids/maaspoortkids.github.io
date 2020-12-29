@@ -36,7 +36,7 @@
                 {% assign events = site.data.events | sort: 'start' %}
                 {% for event in events limit %}
 
-                <a target="_blank" class="no_a card-container" startdatum="{{ event.start }}" href="{{ event.ticket }}">
+                <a target="_blank" style="display:none" class="no_a card-container" startdatum="{{ event.start }}" href="{{ event.ticket }}">
                     <div class="card" style="margin: 1rem">
                         <div class="card-header">
                             <div class="calendar">
@@ -65,14 +65,9 @@
         var teller = 0;
 
         $('.card-container').each(function () {
-            if (teller >= 4) {
-                $(this).hide()
-            }
-
             var datumStart = new Date($(this).attr('startdatum'));
-            if (datumStart < datumToday) {
-                $(this).hide();
-            } else {
+            if (datumStart >= datumToday) {
+                $(this).show();
                 teller = teller + 1;
             }
         });
