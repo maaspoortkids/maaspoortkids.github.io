@@ -190,3 +190,11 @@ footer li {
 .hide {
     display: none;
 }
+
+/* --[ sponsors ]---------------------------------------------------------------------------------------------------- */
+img.event_sponsor {
+    width: 50px;
+    height: auto;
+    max-height: 50px;
+    margin: 2px;
+}

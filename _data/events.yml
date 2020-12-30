@@ -30,6 +30,8 @@
   end: 2020-12-28T19:30:00+01:00
   location: online
   description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
+  sponsoren:
+    - jumbo
 
 - name: Bouw je eigen wekker
   thumbnail: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
@@ -46,6 +48,8 @@
   end: 2020-12-29T19:30:00+01:00
   location: online
   description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
+  sponsoren:
+    - jumbo
 
 - name: Online familie quiz
   thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg
@@ -54,3 +58,5 @@
   end: 2020-12-30T19:30:00+01:00
   location: online
   description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
+  sponsoren:
+    - jumbo

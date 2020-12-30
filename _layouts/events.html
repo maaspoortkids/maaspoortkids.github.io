@@ -40,6 +40,18 @@ layout: default
                     {% endif %}
 
                 </div>
+                {% if event.sponsoren %}
+                    <div class="card-footer">
+                        <h5 class="card-title">Mede mogelijk gemaakt door:</h5>
+                        {% for sponsor_id in event.sponsoren %}
+                            <a target="_blank" class="no_a" href="{{ site.data.sponsors[sponsor_id].url }}">
+                                <img class="img-thumbnail event_sponsor"
+                                     alt="{{ site.data.sponsors[sponsor_id].name }}"
+                                     src="{{ site.data.sponsors[sponsor_id].logo }}">
+                            </a>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
         </div>
     {% endfor %}
