@@ -22,6 +22,10 @@
   end: 2020-12-22T12:00:00+01:00
   location: online
   description: Soldeer samen met papa of mama een leuke kerstboom met mooie lampjes in elkaar
+  documents:
+    - url: /downloads/handleiding-kerstbomen_solderen.pdf
+      name: handleiding - kerstbomen solderen
+      icon: far fa-file-alt
 
 - name: Online familie quiz
   thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg
@@ -40,6 +44,14 @@
   end: 2020-12-29T12:00:00+01:00
   location: online
   description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
+#  map: Troelstradreef 160, 5237 DE 's-Hertogenbosch, Nederland
+  documents:
+    - url: /downloads/handleiding-bouw_je_eigen_wekker.pdf
+      name: handleiding - bouw je eigen wekker
+      icon: far fa-file-alt
+    - url: https://github.com/maaspoortkids/wekker
+      name:  github - bouw je eigen wekker
+      icon: fab fa-github
 
 - name: Online familie quiz
   thumbnail: /assets/images/evenementen/2020-12_familie_quiz.jpeg

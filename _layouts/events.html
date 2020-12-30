@@ -22,23 +22,38 @@ layout: default
                     <p class="card-text">{{ event.description }}</p>
                     <p class="card-text">Locatie: {{ event.location }}</p>
 
-                    {% if event.map %}
-                        <a target="_blank"
-                           class="btn btn-primary"
-                           href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
-                            <i class="fas fa-map-marked-alt"></i>
-                        </a>
-                    {% endif %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            {% if event.ticket %}
+                                <a target="_blank"
+                                   event-start="{{ event.start }}"
+                                   class="btn btn-primary disabled"
+                                   href="{{ event.ticket }}">
+                                    Ticket reserveren
+                                </a>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-6">
+                            {% if event.map %}
+                                <a target="_blank"
+                                   class="btn btn-primary"
+                                   href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </a>
+                            {% endif %}
 
-                    {% if event.ticket %}
-                        <a target="_blank"
-                           event-start="{{ event.start }}"
-                           class="btn btn-primary disabled"
-                           href="{{ event.ticket }}">
-                            Ticket reserveren
-                        </a>
-                    {% endif %}
-
+                            {% for document in event.documents %}
+                                <a target="_blank"
+                                   class="btn btn-outline-secondary"
+                                   href="{{ document.url }}"
+                                   data-bs-toggle="tooltip"
+                                   data-bs-placement="top"
+                                   title="{{ document.name }}">
+                                    <span class="{{ document.icon }}"></span>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
                 </div>
                 {% if event.sponsoren %}
                     <div class="card-footer">
