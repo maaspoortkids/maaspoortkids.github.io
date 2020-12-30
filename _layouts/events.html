@@ -1,44 +1,58 @@
 ---
 layout: default
 ---
-{% assign events = site.data.events | sort: 'start'  %}
+{% assign events = site.data.events | sort: 'start' | reverse %}
 
 <div class="row">
     {% for event in events %}
-    <div class="col-md-4">
-        <div class="card" style="margin: 1rem">
-            <img class="card-img-top" alt="{{event.name}}" src="{{event.thumbnail}}">
-            <div class="card-header">
-                <div class="calendar">
-                    <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
-                    <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
+        <div class="col-md-4">
+            <div class="card" style="margin: 1rem">
+                <img class="card-img-top" alt="{{ event.name }}" src="{{ event.thumbnail }}">
+                <div class="card-header">
+                    <div class="calendar">
+                        <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
+                        <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
+                    </div>
+                    <h5 class="card-title">{{ event.name }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Van: {{ event.start | date: "%k:%M" }}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Tot: {{ event.end | date: "%k:%M" }}</h6>
                 </div>
-                <h5 class="card-title">{{ event.name }}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Van: {{ event.start | date: "%k:%M" }}</h6>
-                <h6 class="card-subtitle mb-2 text-muted">Tot: {{ event.end | date: "%k:%M" }}</h6>
-            </div>
-            <div class="card-body">
+                <div class="card-body">
 
-                <p class="card-text">{{ event.description }}</p>
-                <p class="card-text">Locatie: {{event.location}}</p>
+                    <p class="card-text">{{ event.description }}</p>
+                    <p class="card-text">Locatie: {{ event.location }}</p>
 
-                {% if event.map %}
-                <a target="_blank"
-                   class="btn btn-primary"
-                   href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
-                    <i class="fas fa-map-marked-alt"></i>
-                </a>
-                {% endif %}
+                    {% if event.map %}
+                        <a target="_blank"
+                           class="btn btn-primary"
+                           href="https://www.google.nl/maps/place/{{ event.map | url_encode }}">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </a>
+                    {% endif %}
 
-                {% if event.ticket %}
-                <a target="_blank"
-                   class="btn btn-primary"
-                   href="{{ event.ticket }}">
-                    Ticket reserveren
-                </a>
-                {% endif %}
+                    {% if event.ticket %}
+                        <a target="_blank"
+                           event-start="{{ event.start }}"
+                           class="btn btn-primary disabled"
+                           href="{{ event.ticket }}">
+                            Ticket reserveren
+                        </a>
+                    {% endif %}
+
+                </div>
             </div>
         </div>
-    </div>
     {% endfor %}
 </div>
+
+<script>
+    $(document).ready(function () {
+        let datumToday = new Date();
+        $('a[event-start]').each(function () {
+            let datumStart = new Date($(this).attr('event-start'));
+            if (datumStart >= datumToday) {
+                $(this).removeClass('disabled');
+            }
+        });
+    });
+</script>

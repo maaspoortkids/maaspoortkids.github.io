@@ -10,45 +10,48 @@
                 <div class="carousel slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         {% for image in page.carousel %}
-                        <li data-bs-target="#carouselIndicators"
-                            data-bs-slide-to="{{ forloop.index0 }}"
+                            <li data-bs-target="#carouselIndicators"
+                                data-bs-slide-to="{{ forloop.index0 }}"
                             {% if forloop.index0== 0 %}
-                            class="active"
-                            {% endif %}></li>
+                                class="active"
+                                    {% endif %}></li>
                         {% endfor %}
                     </ol>
                     <div class="carousel-inner">
                         {% for item in page.carousel %}
-                        <div
-                            {% if forloop.index0== 0 %}
-                            class="carousel-item active"
-                            {% else %}
-                            class="carousel-item"
-                            {% endif %}
-                            data-bs-interval="2000">
-                            <img src="{{item.image}}" class="d-block w-100" alt="{{item.name}}">
-                        </div>
+                            <div
+                                    {% if forloop.index0== 0 %}
+                                        class="carousel-item active"
+                                    {% else %}
+                                        class="carousel-item"
+                                    {% endif %}
+                                    data-bs-interval="2000">
+                                <img src="{{ item.image }}" class="d-block w-100" alt="{{ item.name }}">
+                            </div>
                         {% endfor %}
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 {% assign events = site.data.events | sort: 'start' %}
-                {% for event in events limit %}
+                {% for event in events %}
 
-                <a target="_blank" class="no_a card-container hide" startdatum="{{ event.start }}" href="{{ event.ticket }}">
-                    <div class="card" style="margin: 1rem">
-                        <div class="card-header">
-                            <div class="calendar">
-                                <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
-                                <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
+                    <a target="_blank" class="no_a hide"
+                       event-start="{{ event.start }}"
+                       href="{{ event.ticket }}">
+                        <div class="card" style="margin: 1rem">
+                            <div class="card-header">
+                                <div class="calendar">
+                                    <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
+                                    <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
+                                </div>
+                                <h5 class="card-title">{{ event.name }}</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">
+                                    {{ event.start | date: "%k:%M" }} - {{ event.end | date: "%k:%M" }}
+                                </h6>
                             </div>
-                            <h5 class="card-title">{{ event.name }}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">{{ event.start | date: "%k:%M" }} - {{ event.end |
-                                date: "%k:%M" }}</h6>
                         </div>
-                    </div>
-                </a>
+                    </a>
                 {% endfor %}
             </div>
         </div>
@@ -60,12 +63,12 @@
 {%- include footer.html -%}
 <script>
     $(document).ready(function () {
-        var datumToday = new Date();
+        let datumToday = new Date();
         datumToday.setDate(datumToday.getDate() - 1);
-        var teller = 0;
+        let teller = 0;
 
-        $('.card-container').each(function () {
-            var datumStart = new Date($(this).attr('startdatum'));
+        $('a[event-start]').each(function () {
+            let datumStart = new Date($(this).attr('event-start'));
             if (datumStart >= datumToday) {
                 $(this).show();
                 teller = teller + 1;
