@@ -1,63 +1,84 @@
-- name: Google
+google:
+  name: Google
   logo: /assets/images/sponsoren/google.png
   url: https://www.google.com/intl/nl_nl/nonprofits/
-- name: Slack
+slack:
+  name: Slack
   logo: /assets/images/sponsoren/slack.png
   url: https://slack.com
-- name: Jumbo Maaspoort
+jumbo:
+  name: Jumbo Maaspoort
   logo: /assets/images/sponsoren/jumbo.png
   url: https://www.jumbo.com/winkel/jumbo-den-bosch-lokerenpassage
-- name: Rabobank 's-Hertogenbosch
+rabobank:
+  name: Rabobank 's-Hertogenbosch
   logo: /assets/images/sponsoren/rabobank.jpg
   url: https://www.rabobank.nl/lokale-bank/s-hertogenbosch-en-omstreken/
-- name: Gemeente 's-Hertogenbosch
+gemeente_shertogenbosch:
+  name: Gemeente 's-Hertogenbosch
   logo: /assets/images/sponsoren/gemeente_shertogenbosch.jpeg
   url: https://www.s-hertogenbosch.nl/
-- name: Plus Maaspoort
+plus:
+  name: Plus Maaspoort
   logo: /assets/images/sponsoren/plus.png
   url: https://www.plus.nl/supermarkten/den-bosch_plus-maaspoort_271
-- name: Scc de Schans
+scc_de_schans:
+  name: Scc de Schans
   logo: /assets/images/sponsoren/scc_de_schans.png
   url: https://sccdeschans.nl
-- name: Jantje Beton
+jantje_beton:
+  name: Jantje Beton
   logo: /assets/images/sponsoren/jantje_beton.png
   url: https://jantjebeton.nl/
-- name: Hager
+hager:
+  name: Hager
   logo: /assets/images/sponsoren/hager.jpg
   url: https://www.hager.nl/
-- name: Whyled
+whyled:
+  name: Whyled
   logo: /assets/images/sponsoren/whyled.png
   url: https://whyled.nl
-- name: Winkelcentrum Maaspoort
+winkelcentrum_maaspoort:
+  name: Winkelcentrum Maaspoort
   logo: /assets/images/sponsoren/winkelcentrum_maaspoort.png
   url: http://www.winkelcentrummaaspoort.nl
-- name: Omron
+omron:
+  name: Omron
   logo: /assets/images/sponsoren/omron.svg
   url: https://omron.nl
-- name: Mooizo Goedzo
+mooizo_goedzo:
+  name: Mooizo Goedzo
   logo: /assets/images/sponsoren/mooizo_goedzo.png
   url: https://www.mzgz.nl
-- name: Inveks Assurantiën
+inveks:
+  name: Inveks Assurantiën
   logo: /assets/images/sponsoren/inveks.png
   url: https://www.inveks.nl/
-- name: Jos de Werd
+jos_de_werd:
+  name: Jos de Werd
   logo: /assets/images/sponsoren/jos_de_werd.png
   url: https://www.dewerdinstallatietechniek.nl/
-- name: bijstip.
+bijstip:
+  name: bijstip.
   logo: /assets/images/sponsoren/bijstip.png
   url: https://bijstip.nl
-- name: de smaakvan
+de_smaakvan:
+  name: de smaakvan
   logo: /assets/images/sponsoren/desmaakvan.webp
   url: https://www.de-smaakvan.nl
-- name: K &amp; M Installaties
+km_installaties:
+  name: K &amp; M Installaties
   logo: /assets/images/sponsoren/KM_Installaties.png
   url: https://www.km-installaties.nl/
-- name: NKMB Holding
+nkmb_holding:
+  name: NKMB Holding
   logo: /assets/images/sponsoren/nkmbholding.png
   url: https://www.nkmbholding.com
-- name: Praxis Maaspoort
+praxis:
+  name: Praxis Maaspoort
   logo: /assets/images/sponsoren/praxis.jpg
   url: https://www.praxis.nl/store/Den%20Bosch%20%20Maaspoort
-- name: Maaspoortnieuws
+maaspoortnieuws:
+  name: Maaspoortnieuws
   logo: /assets/images/sponsoren/maaspoortnieuws.jpg
   url: https://www.maaspoortnieuws.nl/
