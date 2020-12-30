@@ -70,7 +70,7 @@
 
         $('a[event-start]').each(function () {
             let datumStart = new Date($(this).attr('event-start'));
-            if (datumStart >= datumToday && teller < 5) {
+            if (datumStart >= datumToday && teller < 4) {
                 $(this).removeClass('hide');
                 teller++;
             }
