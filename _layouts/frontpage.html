@@ -14,18 +14,18 @@
                                 data-bs-slide-to="{{ forloop.index0 }}"
                             {% if forloop.index0== 0 %}
                                 class="active"
-                                    {% endif %}></li>
+                                {% endif %}></li>
                         {% endfor %}
                     </ol>
                     <div class="carousel-inner">
                         {% for item in page.carousel %}
                             <div
-                                    {% if forloop.index0== 0 %}
-                                        class="carousel-item active"
-                                    {% else %}
-                                        class="carousel-item"
-                                    {% endif %}
-                                    data-bs-interval="2000">
+                                {% if forloop.index0== 0 %}
+                                    class="carousel-item active"
+                                {% else %}
+                                    class="carousel-item"
+                                {% endif %}
+                                data-bs-interval="2000">
                                 <img src="{{ item.image }}" class="d-block w-100" alt="{{ item.name }}">
                             </div>
                         {% endfor %}
@@ -63,15 +63,16 @@
 {%- include footer.html -%}
 <script>
     $(document).ready(function () {
+        let teller = 0;
         let datumToday = new Date();
         datumToday.setDate(datumToday.getDate() - 1);
-        let teller = 0;
+        datumToday.setHours(0, 0, 0, 0);
 
         $('a[event-start]').each(function () {
             let datumStart = new Date($(this).attr('event-start'));
-            if (datumStart >= datumToday) {
-                $(this).show();
-                teller = teller + 1;
+            if (datumStart >= datumToday && teller < 5) {
+                $(this).removeClass('hide');
+                teller++;
             }
         });
     });
@@ -80,6 +81,3 @@
 {%- include pixel.html -%}
 </body>
 </html>
-
-
-

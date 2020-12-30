@@ -48,6 +48,7 @@ layout: default
 <script>
     $(document).ready(function () {
         let datumToday = new Date();
+        datumToday.setHours(0, 0, 0, 0);
         $('a[event-start]').each(function () {
             let datumStart = new Date($(this).attr('event-start'));
             if (datumStart >= datumToday) {
