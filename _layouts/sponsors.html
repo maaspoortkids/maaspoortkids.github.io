@@ -6,11 +6,13 @@ layout: default
         {% assign sponsor_id = sponsor[0] %}
         <div class="col-md-2">
             <a target="_blank" class="no_a" href="{{ site.data.sponsors[sponsor_id].url }}">
-                <div class="card" style="margin: 1rem">
-                    <img class="card-img-top sponsoren"
-                         alt="{{ site.data.sponsors[sponsor_id].name }}"
-                         src="{{ site.data.sponsors[sponsor_id].logo }}">
-                    <div class="card-body">
+                <div class="card sponsor-body" style="margin: 1rem">
+                    <div class="sponsor-wrapper d-flex flex-wrap align-items-center">
+                        <img class="card-img-top sponsor"
+                             alt="{{ site.data.sponsors[sponsor_id].name }}"
+                             src="{{ site.data.sponsors[sponsor_id].logo }}">
+                    </div>
+                    <div class="card-body text-center">
                         {{ site.data.sponsors[sponsor_id].name }}
                     </div>
                 </div>

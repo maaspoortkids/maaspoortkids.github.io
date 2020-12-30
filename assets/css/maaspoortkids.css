@@ -198,3 +198,24 @@ img.event_sponsor {
     max-height: 50px;
     margin: 2px;
 }
+
+img.sponsor {
+    height: auto;
+    max-height: 160px;
+}
+
+div.sponsor-wrapper {
+    height: 160px;
+    background-color: #FFF;
+}
+
+div.sponsor-body {
+    background-color: #FFF;
+    color: #57c6fa;
+    font-weight: bold;
+}
+
+div.sponsor-body:hover {
+    background-color: #57c6fa;
+    color: #FFF;
+}
