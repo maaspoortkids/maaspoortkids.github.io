@@ -3,6 +3,8 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: Online goochel workshop
+  image: /assets/images/evenementen/2021-01_goochelen_met_Marc_Luijben.jpg
 - name: striptekenen
   image: /assets/images/evenementen/2020-12_striptekenen.jpeg
 - name: soldeer kerst boom

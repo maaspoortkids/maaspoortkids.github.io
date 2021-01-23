@@ -78,6 +78,10 @@ footer li {
     color: #ec1e21;
 }
 
+.disabled .k, .disabled .i, .disabled .d, .disabled .s {
+    color: #aaa !important;
+}
+
 /* --[ logo ]-------------------------------------------------------------------------------------------------------- */
 .logo {
     display: block;
@@ -181,10 +185,24 @@ footer li {
     border: .125rem solid #ec1e21;
 }
 
+.disabled .calendar-day {
+    border-color: #aaa !important;
+}
+
+.disabled .calendar-month.k, .disabled .calendar-month.i, .disabled .calendar-month.d, .disabled .calendar-month.s {
+    background-color: #aaa !important;
+    color: #fff !important;
+}
+
+
 /* --[ unset ]------------------------------------------------------------------------------------------------------- */
 .no_a {
     color: unset;
     text-decoration: unset;
+}
+
+a.disabled {
+    pointer-events: none;
 }
 
 .hide {
