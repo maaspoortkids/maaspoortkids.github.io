@@ -56,7 +56,13 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        &nbsp;
+    </div>
+    <div id="instagram-feed" class="container"></div>
 </div>
+
+
 <div class="container" style="padding: 1rem">
     {{ content }}
 </div>
@@ -75,6 +81,7 @@
         });
     });
 </script>
+{%- include instagram.html -%}
 {%- include gtag.html -%}
 {%- include pixel.html -%}
 </body>
