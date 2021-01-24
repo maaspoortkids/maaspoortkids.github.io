@@ -4,19 +4,21 @@ layout: default
 <div class="row">
     {% for sponsor in site.data.sponsors %}
         {% assign sponsor_id = sponsor[0] %}
-        <div class="col-md-2">
-            <a target="_blank" class="no_a" href="{{ site.data.sponsors[sponsor_id].url }}">
-                <div class="card sponsor-body" style="margin: 1rem">
-                    <div class="sponsor-wrapper d-flex flex-wrap align-items-center">
-                        <img class="card-img-top sponsor"
-                             alt="{{ site.data.sponsors[sponsor_id].name }}"
-                             src="{{ site.data.sponsors[sponsor_id].logo }}">
+        {% if site.data.sponsors[sponsor_id].active %}
+            <div class="col-md-2">
+                <a target="_blank" class="no_a" href="{{ site.data.sponsors[sponsor_id].url }}">
+                    <div class="card sponsor-body" style="margin: 1rem">
+                        <div class="sponsor-wrapper d-flex flex-wrap align-items-center">
+                            <img class="card-img-top sponsor"
+                                 alt="{{ site.data.sponsors[sponsor_id].name }}"
+                                 src="{{ site.data.sponsors[sponsor_id].logo }}">
+                        </div>
+                        <div class="card-body text-center">
+                            {{ site.data.sponsors[sponsor_id].name }}
+                        </div>
                     </div>
-                    <div class="card-body text-center">
-                        {{ site.data.sponsors[sponsor_id].name }}
-                    </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
+        {% endif %}
     {% endfor %}
 </div>
