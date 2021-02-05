@@ -1,73 +1,78 @@
-<!DOCTYPE html>
-<html lang="nl">
-{%- include head.html -%}
-<body>
-{%- include nav.html -%}
-<div class="latestUpdate small-gap">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                        {% for image in page.carousel %}
-                        <li data-bs-target="#carouselIndicators"
-                            data-bs-slide-to="{{ forloop.index0 }}"
-                            {% if forloop.index0== 0 %}
-                            class="active"
-                            {% endif %}></li>
-                        {% endfor %}
-                    </ol>
-                    <div class="carousel-inner">
-                        {% for item in page.carousel %}
-                        <div
-                            {% if forloop.index0== 0 %}
-                            class="carousel-item active"
-                            {% else %}
-                            class="carousel-item"
-                            {% endif %}
-                            data-bs-interval="2000">
-                            <img src="{{ item.image }}" class="d-block w-100" alt="{{ item.name }}">
+---
+layout: default
+---
+<div class="hero-fp">
+    <div class="wrap">
+        <div class="latestUpdate small-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="carousel slide" data-bs-ride="carousel">
+                            <ol class="carousel-indicators">
+                                {% for image in page.carousel %}
+                                <li data-bs-target="#carouselIndicators"
+                                    data-bs-slide-to="{{ forloop.index0 }}"
+                                    {% if forloop.index0== 0 %}
+                                    class="active"
+                                    {% endif %}></li>
+                                {% endfor %}
+                            </ol>
+                            <div class="carousel-inner">
+                                {% for item in page.carousel %}
+                                <div
+                                    {% if forloop.index0== 0 %}
+                                    class="carousel-item active"
+                                    {% else %}
+                                    class="carousel-item"
+                                    {% endif %}
+                                    data-bs-interval="2000">
+                                    <img src="{{ item.image }}" class="d-block w-100" alt="{{ item.name }}">
+                                </div>
+                                {% endfor %}
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-sm-4">
+                        {% assign events = site.data.events | sort: 'start' | reverse %}
+                        {% for event in events limit:4 %}
+
+                        <a target="_blank" class="no_a disabled"
+                           event-start="{{ event.start }}"
+                           href="{{ event.ticket }}">
+                            <div class="card" style="margin: 1rem">
+                                <div class="card-header">
+                                    <div class="calendar">
+                                        <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
+                                        <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
+                                    </div>
+                                    <h5 class="card-title">{{ event.name }}</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">
+                                        {{ event.start | date: "%k:%M" }} - {{ event.end | date: "%k:%M" }}
+                                    </h6>
+                                </div>
+                            </div>
+                        </a>
                         {% endfor %}
+                        <a href="/evenementen/">Meer evenementen ...</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                {% assign events = site.data.events | sort: 'start' | reverse %}
-                {% for event in events limit:4 %}
 
-                <a target="_blank" class="no_a disabled"
-                   event-start="{{ event.start }}"
-                   href="{{ event.ticket }}">
-                    <div class="card" style="margin: 1rem">
-                        <div class="card-header">
-                            <div class="calendar">
-                                <span class="calendar-month k">{{ event.start | date: '%b' }}</span>
-                                <span class="calendar-day k">{{ event.start | date: '%d' }}</span>
-                            </div>
-                            <h5 class="card-title">{{ event.name }}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                {{ event.start | date: "%k:%M" }} - {{ event.end | date: "%k:%M" }}
-                            </h6>
-                        </div>
-                    </div>
-                </a>
-                {% endfor %}
-                <a href="/evenementen/">Meer evenementen ...</a>
-            </div>
         </div>
     </div>
-    <div class="container">
-        <hr/>
-        Instagram
-        <div id="instagram-feed"></div>
+</div>
+
+<div class="listing">
+    <div class="wrap container">
+        <article class="page">
+            Instagram
+            <div id="instagram-feed"></div>
+            <hr/>
+            {{ content }}
+        </article>
     </div>
 </div>
 
-<div class="container" style="padding: 1rem">
-    {{ content }}
-</div>
-{%- include footer.html -%}
 <script>
     $(document).ready(function () {
         let datumToday = new Date();
@@ -83,7 +88,3 @@
     });
 </script>
 {%- include instagram.html -%}
-{%- include gtag.html -%}
-{%- include pixel.html -%}
-</body>
-</html>

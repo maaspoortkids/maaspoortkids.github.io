@@ -1,7 +1,7 @@
-- text: Nieuws
-  url: /nieuws/
 - text: Evenementen
   url: /evenementen/
+- text: CoderDojo
+  url: /coderdojo/
 - text: Sponsoren
   url: /sponsoren/
 - text: Recepten

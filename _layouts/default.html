@@ -2,16 +2,9 @@
 <html lang="nl">
 {%- include head.html -%}
 <body>
-{%- include chat.html -%}
-<div class="flex-wrapper">
-    {%- include nav.html -%}
-    <div class="container" style="padding: 1rem">
-        {{ content }}
-    </div>
-    {%- include footer.html -%}
-</div>
-
+{%- include nav.html -%}
+{{ content }}
+{%- include footer.html -%}
 {%- include gtag.html -%}
-{%- include pixel.html -%}
 </body>
 </html>

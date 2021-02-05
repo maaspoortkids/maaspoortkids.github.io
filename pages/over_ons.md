@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: hero
 permalink: /over-ons/
+image: /assets/images/hero/over-ons.jpg
 title: Over ons | Maaspoort KIDS
 ---
 Onze missie is het organiseren van kinder/wijkactiviteiten in al haar facetten en de vrijwilligers die dit mede mogelijk

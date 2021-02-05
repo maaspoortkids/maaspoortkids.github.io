@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hero
 ---
 <div class="row">
     {% for sponsor in site.data.sponsors %}
@@ -7,7 +7,7 @@ layout: default
         {% if site.data.sponsors[sponsor_id].active %}
             <div class="col-md-2">
                 <a target="_blank" class="no_a" href="{{ site.data.sponsors[sponsor_id].url }}">
-                    <div class="card sponsor-body" style="margin: 1rem">
+                    <div class="card sponsor-body" style="margin: 0.5rem">
                         <div class="sponsor-wrapper d-flex flex-wrap align-items-center">
                             <img class="card-img-top sponsor"
                                  alt="{{ site.data.sponsors[sponsor_id].name }}"

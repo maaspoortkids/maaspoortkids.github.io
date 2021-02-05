@@ -18,18 +18,22 @@ body {
 
 /* -- [ footer ]----------------------------------------------------------------------------------------------------- */
 footer {
+    clear: both;
     display: block;
-    background-color: #000;
     font-family: 'Oswald';
+    color: #000;
 }
 
 footer .container {
     padding: 1rem;
-    color: #FFF;
 }
 
 footer li {
     list-style-type: none;
+}
+
+footer .nav-link, footer  .nav-link:visited  {
+    color: #000;
 }
 
 /* -- [ navbar ]----------------------------------------------------------------------------------------------------- */
@@ -58,6 +62,10 @@ footer li {
 }
 
 /* -- [ colors ]----------------------------------------------------------------------------------------------------- */
+.cd {
+    color: #efefef;
+}
+
 .m {
     color: #efefef;
 }
@@ -82,32 +90,35 @@ footer li {
     color: #aaa !important;
 }
 
+.o {
+    color:#ff8454;
+}
+
 /* --[ logo ]-------------------------------------------------------------------------------------------------------- */
 .logo {
     display: block;
-    text-transform: uppercase;
-    font-family: neon;
     font-size: 2rem;
 }
 
-.logo .i {
-    margin-left: -0.5rem;
+.logo img {
+    height: 30px;
+    width: auto;
+    border: #FFFFFF solid 2px;
+    border-radius: 15px;
 }
 
-.logo .d {
-    margin-left: -0.5rem;
+.logo .cd {
+    text-transform: lowercase;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.logo .s {
-    margin-left: -0.5rem;
+.logo .m, .logo .k, .logo .i, .logo .d, .logo .s {
+    font-family: neon;
+    text-transform: uppercase;
 }
 
-/* --[ flex-wrapper ]------------------------------------------------------------------------------------------------ */
-.flex-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between
+.logo .i, .logo .d, .logo .s {
+    margin-left: -0.5rem;
 }
 
 /* -- [ latestUpdate ]----------------------------------------------------------------------------------------------- */
@@ -237,3 +248,5 @@ div.sponsor-body:hover {
     background-color: #57c6fa;
     color: #FFF;
 }
+
+
