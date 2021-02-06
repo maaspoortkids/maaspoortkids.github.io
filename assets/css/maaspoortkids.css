@@ -22,6 +22,7 @@ footer {
     display: block;
     font-family: 'Oswald';
     color: #000;
+    margin-bottom: 2rem;
 }
 
 footer .container {
@@ -32,7 +33,7 @@ footer li {
     list-style-type: none;
 }
 
-footer .nav-link, footer  .nav-link:visited  {
+footer .nav-link, footer .nav-link:visited {
     color: #000;
 }
 
@@ -91,7 +92,7 @@ footer .nav-link, footer  .nav-link:visited  {
 }
 
 .o {
-    color:#ff8454;
+    color: #ff8454;
 }
 
 /* --[ logo ]-------------------------------------------------------------------------------------------------------- */
@@ -249,4 +250,11 @@ div.sponsor-body:hover {
     color: #FFF;
 }
 
+/* --[ Content ]----------------------------------------------------------------------------------------------------- */
+h1, h2, h3 {
+    color: #57c6fa;
+}
 
+h4, h5, h6 {
+    color: #aaa;
+}
