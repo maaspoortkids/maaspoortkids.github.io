@@ -1,5 +1,11 @@
+- name: Maak je eigen sleutelhanger
+  thumbnail: /assets/images/evenementen/2021-03_sleutelhanger.png
+  start: 2021-03-16T00:00:00+01:00
+  end: 2021-04-04T00:00:00+01:00
+  location: online - email
+  description: Voor alle Maaspoort meisjes en jongens tussen de 8 en 12 jaar.
 
-- name:  Leer striptekenen
+- name: Leer striptekenen
   thumbnail: /assets/images/evenementen/2021-01_striptekenen.jpg
   ticket: https://www.eventbrite.nl/e/tickets-leer-striptekenen-maaspoortse-meisjes-en-jongens-van-8-12-jaar-136980023939
   start: 2021-01-20T14:00:00+01:00
@@ -53,13 +59,13 @@
   end: 2020-12-29T12:00:00+01:00
   location: online
   description: Samen met het gehele gezin achter de tablet of pc een gezellige familie spelletjes doen
-#  map: Troelstradreef 160, 5237 DE 's-Hertogenbosch, Nederland
+  #  map: Troelstradreef 160, 5237 DE 's-Hertogenbosch, Nederland
   documents:
     - url: /downloads/handleiding-bouw_je_eigen_wekker.pdf
       name: handleiding - bouw je eigen wekker
       icon: far fa-file-alt
     - url: https://github.com/maaspoortkids/wekker
-      name:  github - bouw je eigen wekker
+      name: github - bouw je eigen wekker
       icon: fab fa-github
 
 - name: Online familie quiz
