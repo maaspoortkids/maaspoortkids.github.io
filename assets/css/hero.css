@@ -94,3 +94,32 @@
         box-shadow: 0 14px 26px rgba(0, 0, 0, .05)
     }
 }
+
+/* --[ submenu ]----------------------------------------------------------------------------------------------------- */
+.submenu {
+    background-color: #777;
+    margin-bottom: 2rem
+}
+
+.submenu .nav-link {
+    color: #fff;
+}
+
+.submenu .active {
+    color: #57c6fa;
+}
+
+.iframe-wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 30%;
+    overflow: hidden;
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

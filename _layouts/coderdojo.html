@@ -1,4 +1,27 @@
 ---
 layout: hero
 ---
+
+<div class="container submenu">
+    <div class="row">
+        <div class="col">
+            <ul class="nav">
+                {% for nav in site.data.navigation-coderdojo %}
+                <li class="nav-item">
+                    <a aria-current="page"
+                       {% if nav.url== page.url %}
+                       class="nav-link active"
+                       {% else %}
+                       class="nav-link"
+                       {% endif %}
+                       href="{{ nav.url }}">
+                        {{ nav.text }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
 {{ content }}
