@@ -16,7 +16,7 @@
                 {% for nav in site.data.navigation %}
                 <li class="nav-item">
                     <a aria-current="page"
-                       {% if nav.url== page.url %}
+                       {% if page.url contains nav.url %}
                        class="nav-link active"
                        {% else %}
                        class="nav-link"
