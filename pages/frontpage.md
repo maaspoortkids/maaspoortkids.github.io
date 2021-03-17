@@ -3,6 +3,8 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: Paas knutsel actie
+  image: /assets/images/evenementen/2021-03-17_paas_knustel_actie.png
 - name: Maak je eigen sleutelhanger
   image: /assets/images/evenementen/2021-03_sleutelhanger.png
 - name: Online goochel workshop
