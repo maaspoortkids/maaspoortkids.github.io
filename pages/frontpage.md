@@ -1,13 +1,20 @@
 ---
-layout: frontpage permalink: / title: Welkom op Maaspoort KIDS carousel:
-
-- name: Maak je eigen sleutelhanger image: /assets/images/evenementen/2021-03_sleutelhanger.png
-- name: Online goochel workshop image: /assets/images/evenementen/2021-01_goochelen_met_Marc_Luijben.jpg
-- name: striptekenen image: /assets/images/evenementen/2020-12_striptekenen.jpeg
-- name: soldeer kerst boom image: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
-- name: bouw eigen wekker image: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
-- name: Online familie quiz image: /assets/images/evenementen/2020-12_familie_quiz.jpeg
-
+layout: frontpage
+permalink: /
+title: Welkom op Maaspoort KIDS
+carousel:
+- name: Maak je eigen sleutelhanger
+  image: /assets/images/evenementen/2021-03_sleutelhanger.png
+- name: Online goochel workshop
+  image: /assets/images/evenementen/2021-01_goochelen_met_Marc_Luijben.jpg
+- name: striptekenen
+  image: /assets/images/evenementen/2020-12_striptekenen.jpeg
+- name: soldeer kerst boom
+  image: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
+- name: bouw eigen wekker
+  image: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
+- name: Online familie quiz
+  image: /assets/images/evenementen/2020-12_familie_quiz.jpeg
 ---
 
 Veel activiteiten zijn afgelast maar Maaspoort Kids gaat toch wat organiseren. Ben er op tijd bij want er is beperkte
