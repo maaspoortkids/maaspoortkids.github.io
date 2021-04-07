@@ -48,7 +48,7 @@ alleen maar een account aan te maken.
 
 De handleiding vind je [hier](https://www.maaspoortkids.nl/downloads/handleiding-maak_je_eigen_sleutelhanger.pdf).
 . Daarin staat ook alle informatie die je nodig hebt.
-**Belangrijk:** Deze activiteit loopt tot Pasen 2021, tot die datum kunnen we voor je printen.
+**Belangrijk:** Deze activiteit loopt tot eind april 2021, tot die datum kunnen we voor je printen.
 
 ## Voor inschrijven en informatie
 
