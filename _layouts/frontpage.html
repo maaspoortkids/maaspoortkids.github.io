@@ -38,6 +38,7 @@ layout: default
 
                         <a target="_blank" class="no_a disabled"
                            event-start="{{ event.start }}"
+                           event-end="{{ event.end }}"
                            href="{{ event.ticket }}">
                             <div class="card" style="margin: 1rem">
                                 <div class="card-header">
@@ -80,7 +81,7 @@ layout: default
         datumToday.setHours(0, 0, 0, 0);
 
         $('a[event-start]').each(function () {
-            let datumStart = new Date($(this).attr('event-start'));
+            let datumStart = new Date($(this).attr('event-end'));
             if (datumStart >= datumToday) {
                 $(this).removeClass('disabled');
             }
