@@ -3,6 +3,8 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: Zonnebloem actie
+  image: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
 - name: Paas knutsel actie
   image: /assets/images/evenementen/2021-03-17_paas_knustel_actie.png
 - name: Maak je eigen sleutelhanger
@@ -21,6 +23,18 @@ carousel:
 
 Veel activiteiten zijn afgelast maar Maaspoort Kids gaat toch wat organiseren. Ben er op tijd bij want er is beperkte
 ruimte.
+
+# Word jij onze zonnebloemheld?
+
+Maaspoort Kids heeft weer wat leuks: wie kweekt er deze zomer de grootste of de mooiste zonnebloem?
+
+Je krijgt van ons een gratis zakje met zaden en instructies en dan kun je aan de gang. Het beste resultaat krijg je als je eerst
+binnen begint en later de kleine plantjes buiten zet.
+
+Later deze zomer zullen we vragen om foto's van jouw zonnebloem(en) in te sturen. Je mag best tussendoor zelf al eens een
+foto sturen naar ons email adres [activiteiten@maaspoortkids.nl](mailto:activiteiten@maaspoortkids.nl?subject=zonnenbloem).
+
+[Hier](https://www.maaspoortkids.nl/downloads/zonnebloem_actie_flyer.pdf) vind je de flyer met alle informatie.
 
 # Paas knutsel actie
 
