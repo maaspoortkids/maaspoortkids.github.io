@@ -24,6 +24,10 @@ carousel:
 Veel activiteiten zijn afgelast maar Maaspoort Kids gaat toch wat organiseren. Ben er op tijd bij want er is beperkte
 ruimte.
 
+# Inschrijven voor onze nieuwsbrief
+
+Wil je op de hoogte blijven van onze nieuwste activiteiten en ons laatste nieuws. Meld je dan aan voor onze nieuwsbrief. Dat kan via [deze link van MailChimp](https://mailchi.mp/8e27115a6d78/maaspoort-kids-nieuwsbrief).
+
 # Word jij onze zonnebloemheld?
 
 Maaspoort Kids heeft weer wat leuks: wie kweekt er deze zomer de grootste of de mooiste zonnebloem?
