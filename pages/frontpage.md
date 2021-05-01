@@ -24,11 +24,17 @@ carousel:
 Veel activiteiten zijn afgelast maar Maaspoort Kids gaat toch wat organiseren. Ben er op tijd bij want er is beperkte
 ruimte.
 
+# Twee acties verlengd
+
+Zoek je nog wat leuks om te doen tijdens de vakantie? Wij hebben de acties van de zonnebloem en het 3d ontwerpen verlengd tot en met 15 mei.
+
 # Inschrijven voor onze nieuwsbrief
 
 Wil je op de hoogte blijven van onze nieuwste activiteiten en ons laatste nieuws. Meld je dan aan voor onze nieuwsbrief. Dat kan via [deze link van MailChimp](https://mailchi.mp/8e27115a6d78/maaspoort-kids-nieuwsbrief).
 
 # Word jij onze zonnebloemheld?
+
+**!!! Verlengd tot en met 15 mei !!!**
 
 Maaspoort Kids heeft weer wat leuks: wie kweekt er deze zomer de grootste of de mooiste zonnebloem?
 
@@ -47,6 +53,8 @@ paassfeer kunnen gebruiken. We hebben tot 31 maart de tijd om 75 mandjes te knut
 gaat het lukken! Doe jij ook mee? De handleiding vind je [hier](https://www.maaspoortkids.nl/downloads/handleiding-paasmandjes_maken.pdf).
 
 # Maak je eigen sleutelhanger
+
+**!!! Verlengd tot en met 15 mei !!!**
 
 We hebben weer iets leuk voor jullie!
 
@@ -67,7 +75,7 @@ alleen maar een account aan te maken.
 De handleiding vind je [hier](https://www.maaspoortkids.nl/downloads/handleiding-maak_je_eigen_sleutelhanger.pdf).
 Daarin staat ook alle informatie die je nodig hebt.
 
-**Belangrijk:** Deze activiteit loopt tot eind april 2021, tot die datum kunnen we voor je printen.
+**Belangrijk:** Deze activiteit loopt tot en met 15 mei 2021, tot die datum kunnen we voor je printen.
 
 ## Voor inschrijven en informatie
 
