@@ -1,7 +1,7 @@
 - name: Zonnebloemen actie
   thumbnail: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
   start: 2021-04-21T00:00:00+01:00
-  end: 2021-05-02T00:00:00+01:00
+  end: 2021-05-16T00:00:00+01:00
   location: doe het zelf
   description: Word jij onze zonnebloemheld? Zie de flyer voor meer informatie.
   documents:
@@ -19,7 +19,7 @@
 - name: Maak je eigen sleutelhanger
   thumbnail: /assets/images/evenementen/2021-03_sleutelhanger.png
   start: 2021-03-16T00:00:00+01:00
-  end: 2021-05-01T00:00:00+01:00
+  end: 2021-05-16T00:00:00+01:00
   location: online - email
   description: Voor alle Maaspoort meisjes en jongens tussen de 8 en 12 jaar.
 
