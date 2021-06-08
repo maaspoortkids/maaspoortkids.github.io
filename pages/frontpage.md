@@ -3,6 +3,10 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: Bibberspiraal
+  image: /assets/images/evenementen/2021-06_bibberspiraal.jpg
+- name: Maaspoort Kids Repair Cafe
+  image: /assets/images/evenementen/2021-06_repair_cafe.jpg
 - name: Zonnebloem actie
   image: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
 - name: Paas knutsel actie
@@ -21,16 +25,34 @@ carousel:
   image: /assets/images/evenementen/2020-12_familie_quiz.jpeg
 ---
 
-Veel activiteiten zijn afgelast maar Maaspoort Kids gaat toch wat organiseren. Ben er op tijd bij want er is beperkte
-ruimte.
+Nu de verspoeleingen van kracht zijn, kunnen we weer dingen gaan organiseren. En we hebben volop plannen. Twee acties zijn al gepland.
 
-# Twee acties verlengd
+# Bouw je eigen bibberspiraal
 
-Zoek je nog wat leuks om te doen tijdens de vakantie? Wij hebben de acties van de zonnebloem en het 3d ontwerpen verlengd tot en met 15 mei.
+Je eigen bibberspiraal bouwen en meteen testen wie de beste stalen zenuwen heeft.
+
+We gaan eerst allemaal een bibberspiraal bouwen, en daarna sluiten we de middag af met een wedstrijd voor de eer om te bepalen wie z’n zenuwen het best de baas is. De spiraal mag je natuurlijk meenemen zodat je thuis nog eens kunt kijken of je je ouders kunt verslaan.
+
+Wanneer: zaterdag 12 juni van 2 tot 4 uur
+Waar: SCC de Schans in de Maaspoort Kids ruimte
+Voor: kinderen uit de Maaspoort van 7 tot 12 jaar
+Ticket: Er is plaats voor 5, reserveer snel je plekje [in Eventbrite](https://www.eventbrite.com/e/tickets-bouw-je-eigen-bibberspiraal-158486301795).
+
+# Maaspoort Kids Repair Cafe
+
+Er komen twee repair cafe's in samenwerking met Repair cafe Maaspoort. We gaan kapot kinderspeelgoed repareren. Heb je kapot speelgoed of een zielige knuffel of pop die gewond is geraakt ben je van harte welkom op zaterdag 19 juni en zaterdag 3 juli van 14.00 tot 16.00 in de Maaspoort Kids ruimte in SCC De Schans.
+
+Let op: papa's en mama's die met een kapotte stofzuiger of senseo voor onze neus staan zullen we niet direct wegsturen, maar kinderen gaan deze middagen natuurlijk voor!
+Voor de goede orde: reparaties worden door vrijwilligers uitgevoerd. Er zijn geen kosten aan verbonden maar er zit evenmin garantie op, en deze reparaties zijn dus op eigen risico van de eigenaar. Het is fijn als je vooraf even laat weten als je komt en wat je meeneemt omdat we natuurlijk nog steeds met coronabeperkingen zitten.
+
+Wanneer: zaterdag 19 juni van 2 tot 4 uur en zaterdag 3 juli van 2 tot 4 uur
+Waar: SCC de Schans in de Maaspoort Kids ruimte
+Voor: kinderen uit de Maaspoort van 4 tot 12 jaar
 
 # Inschrijven voor onze nieuwsbrief
 
 Wil je op de hoogte blijven van onze nieuwste activiteiten en ons laatste nieuws. Meld je dan aan voor onze nieuwsbrief. Dat kan via [deze link van MailChimp](https://mailchi.mp/8e27115a6d78/maaspoort-kids-nieuwsbrief).
+
 
 # Word jij onze zonnebloemheld?
 
