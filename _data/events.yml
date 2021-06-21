@@ -1,8 +1,14 @@
-- name: Bouw je eigen bibberspiraal
-  thumbnail: /assets/images/evenementen/2021-06_bibberspiraal.jpg
-  ticket: https://www.eventbrite.com/e/tickets-bouw-je-eigen-bibberspiraal-158486301795
-  start: 2021-06-12T14:00:00+01:00
-  end: 2021-06-12T16:00:00+01:00
+- name: Maaspoort Kids Repair Cafe
+  thumbnail: /assets/images/evenementen/2021-06_repair_cafe.jpg
+  start: 2021-07-03T14:00:00+01:00
+  end: 2021-07-03T16:00:00+01:00
+  location: SCC de Schans, Maaspoort Kids ruimte
+  description: Voor alle Maaspoort meisjes en jongens tussen de 4 en 12 jaar
+
+- name: Workshop 3D ontwerp
+  thumbnail: /assets/images/evenementen/2021-06_3d_workshop.png
+  start: 2021-06-26T14:00:00+01:00
+  end: 2021-06-26T16:00:00+01:00
   location: SCC de Schans, Maaspoort Kids ruimte
   description: Voor alle Maaspoort meisjes en jongens tussen de 7 en 12 jaar
 
@@ -13,12 +19,13 @@
   location: SCC de Schans, Maaspoort Kids ruimte
   description: Voor alle Maaspoort meisjes en jongens tussen de 4 en 12 jaar
 
-- name: Maaspoort Kids Repair Cafe
-  thumbnail: /assets/images/evenementen/2021-06_repair_cafe.jpg
-  start: 2021-07-03T14:00:00+01:00
-  end: 2021-07-03T16:00:00+01:00
+- name: Bouw je eigen bibberspiraal
+  thumbnail: /assets/images/evenementen/2021-06_bibberspiraal.jpg
+  ticket: https://www.eventbrite.com/e/tickets-bouw-je-eigen-bibberspiraal-158486301795
+  start: 2021-06-12T14:00:00+01:00
+  end: 2021-06-12T16:00:00+01:00
   location: SCC de Schans, Maaspoort Kids ruimte
-  description: Voor alle Maaspoort meisjes en jongens tussen de 4 en 12 jaar
+  description: Voor alle Maaspoort meisjes en jongens tussen de 7 en 12 jaar
 
 - name: Zonnebloemen actie
   thumbnail: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
