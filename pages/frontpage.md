@@ -3,40 +3,28 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: 3D Workshop
+  image: /assets/images/evenementen/2021-06_3d_ontwerp.png
 - name: Bibberspiraal
   image: /assets/images/evenementen/2021-06_bibberspiraal.jpg
 - name: Maaspoort Kids Repair Cafe
   image: /assets/images/evenementen/2021-06_repair_cafe.jpg
 - name: Zonnebloem actie
   image: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
-- name: Paas knutsel actie
-  image: /assets/images/evenementen/2021-03-17_paas_knustel_actie.png
-- name: Maak je eigen sleutelhanger
-  image: /assets/images/evenementen/2021-03_sleutelhanger.png
-- name: Online goochel workshop
-  image: /assets/images/evenementen/2021-01_goochelen_met_Marc_Luijben.jpg
-- name: striptekenen
-  image: /assets/images/evenementen/2020-12_striptekenen.jpeg
-- name: soldeer kerst boom
-  image: /assets/images/evenementen/2020-12_soldeer_kerst_boom.jpeg
-- name: bouw eigen wekker
-  image: /assets/images/evenementen/2020-12_bouw_eigen_wekker.jpeg
-- name: Online familie quiz
-  image: /assets/images/evenementen/2020-12_familie_quiz.jpeg
 ---
 
-Nu de verspoeleingen van kracht zijn, kunnen we weer dingen gaan organiseren. En we hebben volop plannen. Twee acties zijn al gepland.
+Deze maand zijn nog er nog 2 toffe activiteiten gepland.
 
-# Bouw je eigen bibberspiraal
+# 3D Workshop
 
-Je eigen bibberspiraal bouwen en meteen testen wie de beste stalen zenuwen heeft.
+Werken met computers is leuk, maar het is nog leuker als je het resultaat ook echt vast kan pakken. We gaan deze middag aan de slag met 3D ontwerpen en vervolgens op een echte 3D printer printen. Je kunt daarbij denken aan een sleutelhanger of een poppetje, maar het kan natuurlijk ook iets anders zijn dat je in je hoofd bedacht hebt. 
+Laat ons svp even weten op activiteiten@maaspoortkids.nl of het mogelijk is om je eigen laptop mee te nemen. We hebben er ook een paar dus het hoeft niet perse, maar het is handig als we vooraf weten waar we op kunnen rekenen.
 
-We gaan eerst allemaal een bibberspiraal bouwen, en daarna sluiten we de middag af met een wedstrijd voor de eer om te bepalen wie z’n zenuwen het best de baas is. De spiraal mag je natuurlijk meenemen zodat je thuis nog eens kunt kijken of je je ouders kunt verslaan.
-
-Wanneer: zaterdag 12 juni van 2 tot 4 uur
+Wanneer: zaterdag 26 juni van 2 tot 4 uur
 Waar: SCC de Schans in de Maaspoort Kids ruimte
 Voor: kinderen uit de Maaspoort van 7 tot 12 jaar
-Ticket: Er is plaats voor 5, reserveer snel je plekje [in Eventbrite](https://www.eventbrite.com/e/tickets-bouw-je-eigen-bibberspiraal-158486301795).
+
+Ticket: Er is plaats voor 5, reserveer snel je plekje [in Eventbrite](https://www.eventbrite.com/e/160434553067).
 
 # Maaspoort Kids Repair Cafe
 
@@ -48,6 +36,17 @@ Voor de goede orde: reparaties worden door vrijwilligers uitgevoerd. Er zijn gee
 Wanneer: zaterdag 19 juni van 2 tot 4 uur en zaterdag 3 juli van 2 tot 4 uur
 Waar: SCC de Schans in de Maaspoort Kids ruimte
 Voor: kinderen uit de Maaspoort van 4 tot 12 jaar
+
+# Bouw je eigen bibberspiraal
+
+Je eigen bibberspiraal bouwen en meteen testen wie de beste stalen zenuwen heeft.
+
+We gaan eerst allemaal een bibberspiraal bouwen, en daarna sluiten we de middag af met een wedstrijd voor de eer om te bepalen wie z’n zenuwen het best de baas is. De spiraal mag je natuurlijk meenemen zodat je thuis nog eens kunt kijken of je je ouders kunt verslaan.
+
+Wanneer: zaterdag 12 juni van 2 tot 4 uur
+Waar: SCC de Schans in de Maaspoort Kids ruimte
+Voor: kinderen uit de Maaspoort van 7 tot 12 jaar
+Ticket: Er is plaats voor 5, reserveer snel je plekje [in Eventbrite](https://www.eventbrite.com/e/tickets-bouw-je-eigen-bibberspiraal-158486301795).
 
 # Inschrijven voor onze nieuwsbrief
 
