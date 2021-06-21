@@ -4,7 +4,7 @@ permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
 - name: 3D Workshop
-  image: /assets/images/evenementen/2021-06_3d_ontwerp.png
+  image: /assets/images/evenementen/2021-06_3d_workshop.png
 - name: Bibberspiraal
   image: /assets/images/evenementen/2021-06_bibberspiraal.jpg
 - name: Maaspoort Kids Repair Cafe
