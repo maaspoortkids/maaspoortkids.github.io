@@ -30,7 +30,7 @@ Voor: kinderen uit de Maaspoort van 4 tot 12 jaar
 
 # Knutselmiddag Maaspoort Summer Vibes
 
-Maaspoort Kids is zondag 5 september aanwezig op Maaspoort Summer Vibes en dan willen we natuurlijk alles leuk kunnen versieren. Wij zijn Iris en Myrthe en we organiseren daarom op 10 juli een knutselmiddag voor kinderen van de onder- en middenbouw. Daarbij gaan we van papier hele lange slingers maken om op het terrein mee te versieren. Kom je ons ook helpen? Reserveer een gratis ticket via deze [link](https://www.eventbrite.nl/e/tickets-knutselmiddag-maaspoort-summer-vibes-162046510475).
+Maaspoort Kids is zondag 5 september aanwezig op Maaspoort Summer Vibes en dan willen we natuurlijk alles leuk kunnen versieren. Wij zijn Iris en Myrthe en we organiseren daarom op 10 juli een knutselmiddag voor kinderen van de onder- en middenbouw. Daarbij gaan we van papier hele lange slingers maken om op het terrein mee te versieren. Kom je ons ook helpen? [Reserveer een gratis ticket](https://www.eventbrite.nl/e/tickets-knutselmiddag-maaspoort-summer-vibes-162046510475).
 
 Liefs Iris en Myrthe
 
@@ -43,4 +43,3 @@ Voor: kinderen uit de Maaspoort van 4 tot 10 jaar
 
 Wil je op de hoogte blijven van onze nieuwste activiteiten en ons laatste nieuws. Meld je dan aan voor onze nieuwsbrief. Dat kan via [deze link van MailChimp](https://mailchi.mp/8e27115a6d78/maaspoort-kids-nieuwsbrief).
 
-G
