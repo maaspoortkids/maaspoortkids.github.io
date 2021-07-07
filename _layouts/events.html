@@ -26,8 +26,8 @@ layout: hero
                         <div class="col">
                             {% if event.ticket %}
                                 <a target="_blank"
-                                   event-start="{{ event.start }}"
-                                   class="btn btn-primary disabled"
+                                   event-start="{{ event.start | date: '%FT%T%z' }}"
+                                   class="btn btn-secondary disabled"
                                    href="{{ event.ticket }}">
                                     Ticket reserveren
                                 </a>
@@ -80,6 +80,8 @@ layout: hero
             let datumStart = new Date($(this).attr('event-start'));
             if (datumStart >= datumToday) {
                 $(this).removeClass('disabled');
+                $(this).removeClass('btn-secondary');
+                $(this).addClass('btn-primary');
             }
         });
     });

@@ -37,8 +37,8 @@ layout: default
                         {% for event in events limit:4 %}
 
                         <a target="_blank" class="no_a disabled"
-                           event-start="{{ event.start }}"
-                           event-end="{{ event.end }}"
+                           event-start="{{ event.start | date: '%FT%T%z' }}"
+                           event-end="{{ event.end | date: '%FT%T%z' }}"
                            href="{{ event.ticket }}">
                             <div class="card" style="margin: 1rem">
                                 <div class="card-header">
@@ -78,11 +78,11 @@ layout: default
         datumToday.setHours(0, 0, 0, 0);
 
         $('a[event-start]').each(function () {
-            let datumStart = new Date($(this).attr('event-end'));
-            if (datumStart >= datumToday) {
+            let datumEnd = new Date($(this).attr('event-end'));
+            if (datumEnd >= datumToday) {
                 $(this).removeClass('disabled');
             }
         });
     });
 </script>
-{%- include instagram.html -%}
+2021-06-19 16:00:00 +0100
