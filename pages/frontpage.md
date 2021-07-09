@@ -3,6 +3,8 @@ layout: frontpage
 permalink: /
 title: Welkom op Maaspoort KIDS
 carousel:
+- name: Bouw je eigen propeller auto
+  image: /assets/images/evenementen/2021-07_propellerauto.png
 - name: Knutselmiddag Summer Vibes
   image: /assets/images/evenementen/2021-07_knutselmiddag.png
 - name: 3D Workshop
@@ -15,18 +17,8 @@ carousel:
   image: /assets/images/evenementen/2021-04-21_zonnebloem_actie.png
 ---
 
-Ook in juli hebben we een paar toffe activiteiten.
-
-# Maaspoort Kids Repair Cafe
-
-Er komen twee repair cafe's in samenwerking met Repair cafe Maaspoort. We gaan kapot kinderspeelgoed repareren. Heb je kapot speelgoed of een zielige knuffel of pop die gewond is geraakt ben je van harte welkom op zaterdag 19 juni en zaterdag 3 juli van 14.00 tot 16.00 in de Maaspoort Kids ruimte in SCC De Schans.
-
-Let op: papa's en mama's die met een kapotte stofzuiger of senseo voor onze neus staan zullen we niet direct wegsturen, maar kinderen gaan deze middagen natuurlijk voor!
-Voor de goede orde: reparaties worden door vrijwilligers uitgevoerd. Er zijn geen kosten aan verbonden maar er zit evenmin garantie op, en deze reparaties zijn dus op eigen risico van de eigenaar. Het is fijn als je vooraf even laat weten als je komt en wat je meeneemt omdat we natuurlijk nog steeds met coronabeperkingen zitten.
-
-Wanneer: zaterdag 19 juni van 2 tot 4 uur en zaterdag 3 juli van 2 tot 4 uur
-Waar: SCC de Schans in de Maaspoort Kids ruimte
-Voor: kinderen uit de Maaspoort van 4 tot 12 jaar
+Nog een paar toffe activiteiten voor het begin van de vakantie.
+Maar houd de site in de gaten, want ook tijdens de vakantie zullen we het een en ander organiseren.
 
 # Knutselmiddag Maaspoort Summer Vibes
 
@@ -37,6 +29,15 @@ Liefs Iris en Myrthe
 Wanneer: zaterdag 10 juli van 2 tot 4 uur
 Waar: SCC de Schans in de Maaspoort Kids ruimte
 Voor: kinderen uit de Maaspoort van 4 tot 10 jaar
+
+
+# Bouw je eigen propellerauto
+
+Vliegtuigen komen vooruit met een propeller, dus waarom auto’s niet? We gaan met wat simpele materialen een autootje knutselen dat zichzelf vooruit blaast. Het autootje neem je na afloop natuurlijk mee naar huis. Doe je mee? [Reserveer een gratis ticket](www.eventbrite.nl/e/tickets-bouw-je-eigen-propeller-auto-162790888931).
+
+Wanneer: zaterdag 17 juli van 2 tot 4 uur
+Waar: SCC de Schans in de Maaspoort Kids ruimte
+Voor: kinderen uit de Maaspoort van 7 tot 12 jaar
 
 
 # Inschrijven voor onze nieuwsbrief
